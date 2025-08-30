@@ -11,14 +11,14 @@ A **simple and fast tool to hash passwords in the terminal** 🖥️✨
 Install via npm:
 
 ```bash
-npm i -g password-hasher
+npm i -g hashwizard
 ```
 
 ### Usage
 Type this in your terminl to run:
 
 ```sh
-password-hasher
+hashwizard
 ```
 
 1. First, answer the first question. (Enter your password?) Default value is **AmirCodeZ1234**:
