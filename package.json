@@ -1,0 +1,32 @@
+{
+  "name": "hashwizard",
+  "version": "1.0.1",
+  "main": "index.js",
+  "bin": {
+    "hashwizard": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bcrypt",
+    "md5",
+    "sha1",
+    "sha256",
+    "sha512",
+    "argon2"
+  ],
+  "author": "AmirCodeZ",
+  "license": "MIT",
+  "description": "A great CLI tool to generate hashed passwords",
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "argon2": "^0.44.0",
+    "bcrypt": "^6.0.0",
+    "chalk": "^5.6.0",
+    "md5": "^2.3.0",
+    "sha1": "^1.1.1",
+    "sha256": "^0.2.0",
+    "sha512": "^0.0.1"
+  }
+}
